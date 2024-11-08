@@ -25,7 +25,7 @@ body {
 
 .hero-image {
     background-image: url("bigfish.webp");
-    background-color: #cccccc;
+    background-color: #ffffff;
     height: 500px;
     background-position: center;
     background-repeat: no-repeat;
@@ -107,7 +107,7 @@ footer {
     font-size: 40px;
     text-align: center;
 }
-.menu h3, h4{
+.menu h3, .menu h4{
     text-align: center;
 }
 .menu h5 {
@@ -119,7 +119,7 @@ footer {
     font-style: italic;
     color: #003b45;
 }
-.menu dt, dd {
+.menu dt, .menu dd {
     display: block;
     float: left;
 }
@@ -151,7 +151,7 @@ footer {
     background-image: url(rods.png);
     background-repeat: no-repeat;
     background-size: 100%;
-    height: 700px;
+    min-height: 700px;
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -167,7 +167,7 @@ footer {
     border-color: rgb(255, 255, 255);
     border-width: 13px;
 }
-.respooling h2, p {
+.respooling h2, .respooling p {
     color: rgb(255, 255, 255);
     padding-left: 30px;
 }
@@ -209,4 +209,69 @@ footer {
 }
 .facebooktext img {
     width: 50px
+}
+
+/*reactive styling*/
+@media only screen and (max-width: 1260px) {
+    /*all*/
+    .hero-image {
+        background-image: none;
+    }
+    .hero-text {
+        color: black;
+        transform:none;
+    }
+
+    /*index.html*/
+    .lakeside h2 {
+        text-align: left;
+    }
+
+    /*bait.html*/
+    .bait {
+        background-image: none;
+    }
+    .menu {
+        background-color: white;
+    }
+
+    /*services.html*/
+    .respooling img {
+        display: none;
+    }
+    .spooltext {
+        margin-top: 50px;
+        margin-right: 10%;
+    }
+
+    /*facebook.html*/
+    .facebooktext {
+        margin-left: 50%;
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    /*all*/
+    #WaterVid {
+        display: none;
+    }
+    body {
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    /*index.html*/
+    .lakeside p, .lakeside h2 {
+        display: none;
+    }
+
+    /*services.html*/
+    .respooling{
+        background-image: none;
+    }
+
+    /*facebook.html*/
+    .facebooktext {
+        margin-left: 20px;
+    }
 }
