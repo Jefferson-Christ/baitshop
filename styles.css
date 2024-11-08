@@ -60,6 +60,7 @@ footer {
     padding-bottom: 30px;
 }
 
+/*index.html*/
 .lakeside {
     background-color: white;
     padding-left: 15%;
@@ -82,6 +83,7 @@ footer {
     font-size: 20px;
 }
 
+/*bait.html*/
 .bait {
     background-image: url(hooks.webp);
     background-repeat: no-repeat;
@@ -142,4 +144,69 @@ footer {
     border-color: rgb(0, 107, 201);;
     border-radius: 15px;
     min-height: 270px;
+}
+
+/*service.html*/
+.respooling {
+    background-image: url(rods.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 700px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.respooling img
+{
+    height: 500px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 100px;
+    float: right;
+    border-radius: 200px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    border-width: 13px;
+}
+.respooling h2, p {
+    color: rgb(255, 255, 255);
+    padding-left: 30px;
+}
+.respooling h2 {
+    padding-top: 10px;
+    font-size: 36px;
+}
+.respooling p {
+    padding-bottom: 10px;
+    font-size: 30px;
+}
+.spooltext {
+    margin-left: 10%;
+    margin-right: 50%;
+    margin-top: 200px;
+    background-color: rgba(0, 0, 0, 0.69);
+    border-color: white;
+    border-style: solid;
+    border-width: 13px;
+}
+
+/*facebook.html*/
+.facebook {
+    background-image: url(thisdude.png);
+    height: 600px;
+    padding-top: 20px;
+}
+.facebooktext {
+    margin-left: 70%;
+    margin-right: 20px;
+    background-color: rgba(255, 255, 255, 0.69);
+    border-style: solid;
+    border-color: black;
+    border-width: 13px;
+    font-size: 30px;
+}
+.facebooktext p {
+    color: black;
+}
+.facebooktext img {
+    width: 50px
 }
