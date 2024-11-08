@@ -81,3 +81,65 @@ footer {
 .lakeside li {
     font-size: 20px;
 }
+
+.bait {
+    background-image: url(hooks.webp);
+    background-repeat: no-repeat;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.menu {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.711);
+    border-width: 50px;
+    border: black;
+    border-style: double;
+    border-radius: 25px;
+}
+.menu h2 {
+    font-size: 40px;
+    text-align: center;
+}
+.menu h3, h4{
+    text-align: center;
+}
+.menu h5 {
+    text-align: right;
+    color: rgb(191, 0, 0);
+    font-size: 22px;
+}
+.menu dd {
+    font-style: italic;
+    color: #003b45;
+}
+.menu dt, dd {
+    display: block;
+    float: left;
+}
+.menu dt {
+    clear: both;
+}
+.menu dl {
+    overflow: hidden;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.box {
+    background-color: rgb(255, 255, 255);
+    padding-left: 15px;
+    padding-right: 15px;
+    border-width: 10px;
+    border-style: groove;
+    border-color: rgb(0, 107, 201);;
+    border-radius: 15px;
+    min-height: 270px;
+}
